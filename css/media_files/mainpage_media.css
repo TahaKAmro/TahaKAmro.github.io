@@ -1,0 +1,141 @@
+@media (max-width:1300px){
+       .headding h1{
+            font-size: 42px;
+       }
+       .headding h2{
+        font-size: 32px;
+       }
+}
+@media (max-width:1200px){
+    .headding h1{
+         font-size: 40px;
+    }
+    .headding h2{
+     font-size: 30px;
+    }
+}
+@media (max-width:1100px){
+    .headding{
+        height: 70vh;
+    }
+    .headding h1{
+         font-size: 34px;
+    }
+    .headding h2{
+     font-size: 27px;
+    }
+    .links_div{
+        height: 8vh;
+    }
+    .links_div a{
+        font-size: 1.6vw;
+    }
+}
+@media (max-width:1000px){
+    .headding{
+        height: 60vh;
+    }
+    .headding h1{
+         font-size: 31px;
+    }
+    .headding h2{
+     font-size: 24px;
+    }
+    .links_div{
+        height: 7vh;
+    }
+    .title::after , .title::before{
+        margin-top: 30px;
+    }
+    .cv h2{
+        font-size: 40px;
+    }
+
+}
+@media (max-width:900px){
+    .headding h1{
+         font-size: 28px;
+    }
+    .title::after , .title::before{
+        margin-top: 20px;
+    }
+    .cv h4{
+        font-size: 1.5vw;
+        line-height: 20px;
+    }
+}
+@media (max-width:750px){
+    .headding h1{
+         font-size: 25px;
+    }
+    .title::after , .title::before{
+        margin-top: 20px;
+    }
+    .links_div {
+        width: 60%;
+    }
+
+    .cv {
+        grid-template-columns: repeat(2,47vw);
+        grid-auto-rows: minmax(35vh , auto);
+    }
+    .cv h3{
+        font-size: 20px;
+    }
+    .cv h4{
+        font-size: 1.7vw;
+        line-height: 17px;
+    }
+}
+@media (max-width:600px){
+    .contact_bar a{
+        padding: 10px;
+    }
+
+    .headding{
+        height: 50vh;
+    }
+    .headding h1{
+        font-size: 20px;
+    }
+    .headding h2{
+        font-size: 18px;
+    }
+
+    .title::after , .title::before{
+        height: 1.5px;
+        margin-top: 15px;
+    }
+
+    .cv h3{
+        font-size: 17px;
+    }
+    .cv h4{
+        font-size: 13px;
+        font-weight: 100 !important;
+    }
+}
+@media (max-width:450px){
+    .headding{
+        width: 95vw;
+        margin-top: 20vh;
+        margin-left: 5vw;
+    }
+    .headding h1{
+        font-size: 17px;
+    }
+    .headding h2{
+        font-size: 15px;
+    }
+
+    .title::after , .title::before{
+        height: 1.5px;
+        margin-top: 10px;
+    }
+
+    .cv h3{
+        font-size: 17px;
+        line-height: normal;
+    }
+}
+

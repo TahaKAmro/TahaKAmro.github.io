@@ -1,0 +1,81 @@
+@media (max-width:1300px){
+    .product h1{
+        font-size: 40px;
+    }
+    .product h3{
+        font-size: 27px;
+    }
+    .product h2{
+        font-size: 22px;
+    }
+}
+@media (max-width:1100px){
+    .product h1{
+        font-size: 40px;
+    }
+    .product h2{
+        font-size: 19px;
+    }
+}
+@media (max-width:900px){
+    .product h1{
+        font-size: 35px;
+    }
+    .product h3{
+        top: 230px;
+        font-size: 25px;
+    }
+    .product h2{
+        margin: 2vh 8vw 0 8vw;
+        font-size: 19px;
+    }
+    .course_logo{
+        margin: 2.5em 10vw;
+    }
+}
+@media (max-width:700px){
+    .product h1{
+        top: 170px;
+        left: 26vw;
+        font-size: 25px;
+    }
+    .product h3{
+        top: 210px;
+        left: 28vw;
+        font-size: 22px;
+    }
+    .product h2{
+        font-size: 16px;
+    }
+    .course_logo{
+        margin: 2.5em 10vw;
+    }
+}
+@media (max-width:550px){
+    .product h1{
+        top: 150px;
+        font-size: 20px;
+    }
+    .product h3{
+        top: 190px;
+        font-size: 18px;
+    }
+    .product h2{
+        margin: 2vh 8vw 0 8vw;
+        font-size: 14px;
+    }
+    .course_logo{
+        margin: 2.5em 10vw;
+    }
+    .course_links{
+        grid-gap: 0.5vw;
+        grid-template-columns: repeat(3 , 27vw);
+    }
+    .course_links a{
+        font-size: 13px;
+        padding: 1vh;
+    }
+    .photos{
+        width: 82%;
+    }
+}

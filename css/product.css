@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400 !important; 
+    transition: all ease 0.3s; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: #d5d3d3;
+}
+
+.product_images{
+    margin: 3vh 0 0 10vw;
+    width: 40vw;
+    height: 70vh;
+    display: inline-block;
+}
+
+.small_images{
+    height: 20%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}   
+.small_images img{
+    height: 11vh;
+    width: 6vw;
+    display: inline;
+    opacity: 0.8;
+}
+.small_images img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.main_image{
+    display: inline;
+    margin: 5%;
+}
+.main_image img{
+    width: 90%;
+    height: 80%;
+}
+
+.order{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.order a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 800;
+    background-color: orange;
+    width: 25%;
+    height: 3.5vh;
+    color: black;
+    border-radius: 10px;
+    padding: 2%;
+}
+.order a::after{
+    content: '';
+    position: relative;
+    width:0%;
+    height: 2.5px;
+    background-color: black;
+    display: block;
+    transition: all 0.3s ease;
+}
+.order a:hover::after{
+    width: 100%;
+}
+
+.product_details{
+    margin: 3vh 5vw;
+    display: inline-block;
+    width: 35vw;
+    height: 70vh;
+    position: absolute;
+}
+.product_details h1{
+    font-size: 35px;
+    font-weight: 900;
+    margin: 3vh 0;
+}
+
+.review{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin:1vh 0 3vh 0;
+}
+.review i {
+    color: orange;
+    margin: 0 2px;
+}
+.review h2{
+    margin-left: 1vw;
+    font-size: 16px;
+}
+
+.product_details h3{
+    color: #565555;
+    margin: 1vh 0 3vh 0;
+}
+.product_details p{
+    font-size: 20px;
+    margin: 1vh 0 3vh 0;
+}
+
+.availability{
+    z-index: 10;
+    width: 5%;
+    height: 40vh;
+    margin-top: 6.5vh;
+    position: fixed;
+    background-color: rgb(52, 237, 19);
+    border-radius: 0 50px 50px 0;
+}
+.availability h1 {
+    margin-top: 9%;
+    margin-left: 35%;
+    z-index: 9;
+}
+
+.unavailability{
+    z-index: 10;
+
+    width: 5%;
+    height: 48vh;
+    margin-top: 6.5vh;
+    position: fixed;
+    background-color: red;
+    border-radius: 0 50px 50px 0;
+}
+.unavailability h1 {
+    margin-top: 9%;
+    margin-left: 35%;
+    z-index: 9;
+}

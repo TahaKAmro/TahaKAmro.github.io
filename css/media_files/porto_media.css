@@ -1,0 +1,12 @@
+@media (max-width:700px){
+    .images_container{
+        width: 90vw;
+        margin: 1vh 0 10vh 5.5vw;
+        grid-template-columns: repeat(auto-fit , minmax(180px , 1fr));
+    }
+}
+@media (max-width:550px){
+    .title{
+        margin-top: 11vh;
+    }
+}

@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    transition: all ease 0.3s; 
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-image: url(/css/iamges/mainback.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headding{
+    width: 70vw;
+    height: 75.7vh;
+    margin-top: 24.3vh;
+    margin-left: 10vw;
+}
+.headding h1{
+    font-size: 45px;
+    color: #eeeeee;
+    padding: 2vh 0 0 0;
+}
+.headding h2{
+    font-size: 35px;
+    color: #eeeeee;
+    padding: 1.5vh 0 0 2vw;
+}
+
+.links_div{
+    margin-top: 3vh;
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0 2vw;
+}
+.links_div a{
+    font-size: 1.3vw;
+    text-decoration: none;
+    color: #2C3639;
+}
+.links_div a::after{
+    content: '';
+    position: relative;
+    width:0%;
+    height: 2.5px;
+    background-color: #2C3639;
+    display: block;
+    margin-top: 5%;
+    transition: all 0.3s ease;
+}
+.links_div a:hover::after{
+    width: 100%;
+}
+
+.cv{
+    width: 96vw;
+    padding: 3.2vh 2vw;
+    display: grid;
+    grid-template-columns: repeat(3 , 31vw);
+    grid-auto-rows: minmax(40vh , auto);
+    grid-column-gap: 1.5vw ;
+    grid-row-gap: 3.2vh;
+    background-color: #1d1b1b;
+}
+.cv div{
+    background-color: #24262a;
+}
+.cv h2{
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    padding: 20px 20px;
+}
+.cv h3{
+    font-size: 25px;
+    text-align: center;
+    color: #eeeeee
+} 
+.cv h4{
+    padding: 20px 20px;
+    font-size: 20px;
+    color: #eeeeee;
+    text-align: center;
+    line-height: 25PX;
+}

@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    transition: all ease 0.3s; 
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #6D9886;
+}
+
+.publishment{
+    width: 70%;
+    height: fit-content;
+    margin: 5vh 0 2vh 15%;
+    border-radius: 15px;
+    background-color: #F6F6F6;
+}
+
+.publisher_data{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: start;
+}
+.publisher_data img{
+    width: 9vw;
+    height: 9vw;
+    margin: 8px;
+    border-radius: 50%;
+    border: #24262a 6px solid;
+}
+.publisher_data h1{
+    padding: 4vh 0 0 0.3vw;
+    font-size: 30px;
+}
+.publisher_data h2{
+    padding: 0.5vh 0 0 0.3vw;
+    font-size: 15px;
+    color: #585858;
+}
+
+.content{
+    width: 80%;
+    height: fit-content;
+    margin-top: 10vh;
+    margin-left: 10%;
+    line-height: 30px;
+    font-size: 20px;
+}
+.content h1{
+    padding: 3vh 0;
+}
+
+.publishment_images div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.publishment_images div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.publishment_images{
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: dense;
+}
+
+.comments{
+    width: 100%;
+    height: auto;
+    padding-bottom:1.5vh ;
+}
+.comments h1{
+    font-size: 40px;
+    border-top: 2px #aaaaaa solid;
+    padding: 20px;
+}
+.comment{
+    margin-left: 5vw;
+    margin-bottom: 3vh;
+    padding-bottom: 1vh;
+    position: relative;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    border-right: 10px #4b90b0 solid;
+}
+.comment::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -25px;
+    background-color: rgb(58, 136, 164);
+    border: 4px solid #8FBDD3;
+    top: 6px;
+    border-radius: 50%;
+        
+}
+.comment h1{
+    padding: 5px 0 0 10px;
+    font-size: 30px;
+    border: none;
+}
+.comment h2{
+    padding: 5px 0 0 10px;
+    font-size: 15px;
+    color: #5e5c5c;
+}
+.comment h3{
+    padding: 5px 0 0 10px;
+    font-size: 18px;
+    
+}
+
+.no_comments{
+    width: 100%;
+    height: 10vh;
+    background-color: #4b90b0;
+    margin-bottom: 2vh;
+    text-align: center;
+}

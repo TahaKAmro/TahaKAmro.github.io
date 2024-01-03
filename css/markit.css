@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400 !important; 
+    transition: all ease 0.3s; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-color: #D9CAB3;
+}
+
+.blue{
+    background-color:#5C8374;
+}
+.blue a{
+    color:#eeeeee;
+}
+.blue a::after{
+    background-color: #eeeeee;
+}

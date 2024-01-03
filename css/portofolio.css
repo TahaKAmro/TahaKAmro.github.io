@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 400 !important; 
+    transition: all ease 0.3s; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    background-image: url(iamges/portoback.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.title {
+    margin-top: 14.3vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 3vw;
+    font-weight: 800;
+    background-color: #24262a;
+    align-items: center;
+}
+.title::after{
+    content: "";
+    width: 35%;
+    height: 3px;
+    background-color: #eeeeee;
+    margin: 1em;
+    margin-top: 40px;
+}
+.title::before{
+    content: "";
+    width: 35%;
+    height: 3px;
+    background-color: #eeeeee;
+    margin: 1em;
+    margin-top: 40px;
+}
+
+.images_container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images_container div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images_container{
+    width: 66vw;
+    margin: 1vw 0 10vh 17vw;
+    display: grid;
+    grid-gap: 1vw;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 2fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+}
+.images_container .tall{
+    grid-row: span 2;
+}
+.images_container .wide{
+    grid-column: span 2;
+}
+.images_container .big{
+    grid-column: span 2;
+    grid-row: span 2;
+}
